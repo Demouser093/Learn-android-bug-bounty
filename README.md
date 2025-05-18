@@ -18,20 +18,38 @@ A curated collection of learning resources to get started with Android applicati
 * [Intercepting Android App Traffic with BurpSuite](https://www.youtube.com/watch?v=xp8ufidc514)
 * [Mobile Application Pentesting](https://www.youtube.com/playlist?list=PLxlnw7Sfbtf9pBNKKQPJTSyI8KNHvgoMJ)
 * [Finding Sensitive Data in Android Apps with Nerdwell](https://www.youtube.com/watch?v=D_-mHBkfThI)
-* [Exploiting Android deep links and exported components](https://www.youtube.com/watch?v=lg1sN8njSYs)
+* [Exploiting Android Deep Links and Exported Components](https://www.youtube.com/watch?v=lg1sN8njSYs)
 * [Mobile App Pentesting by Hacking Simplified](https://www.youtube.com/playlist?list=PLGJe0xGh7cH2lszCZ7qwsqouEK23XCMGp)
 * [Android Security Testing](https://www.youtube.com/watch?v=6-M_7O3A8AI)
+* [Hacker101 – Mobile Crash Course](https://www.hacker101.com/sessions/mobile_crash_course)
 
----
 
-## 📚 Guides & Cheatsheets
+
+## 📚 Guides, Cheatsheets, Github repo
 
 * [Android Pentesting Checklist (HackTricks)](https://book.hacktricks.wiki/en/mobile-pentesting/android-checklist.html)
+* [Android Pentesting Checklist (GitHub)](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist)
 * [Awesome Mobile CTF Resources](https://github.com/xtiankisutsa/awesome-mobile-CTF)
 * [Mobile App Pentest Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#readme)
 * [All Things Android Security](https://github.com/jdonsec/AllThingsAndroid)
 * [Android Bug Bounty Reports & Resources](https://github.com/B3nac/Android-Reports-and-Resources)
 
+
+## 📚 Blogs & Writeups
+
+* [@vaishalinagori112 on Medium](https://medium.com/@vaishalinagori112)
+* [@prasadraj954 on Medium](https://medium.com/@prasadraj954)
+* [B3nac’s Android Reports and Resources](https://github.com/B3nac/Android-Reports-and-Resources)
+* [Oversecured Blog](https://blog.oversecured.com/)
+* [DeeSee's Android Security Resources](https://blog.deesee.xyz/android/security/2020/01/13/android-application-hacking-resources.html)
+* [Hacker101: Mobile Crash Course](https://www.hacker101.com/sessions/mobile_crash_course.html)
+* [Mobisec Slides](https://mobisec.reyammer.io/slides)
+* [Bypassing Certificate Pinning (vavkamil)](https://vavkamil.cz/2019/09/15/how-to-bypass-android-certificate-pinning-and-intercept-ssl-traffic/)
+* [Android Hacking Primer](https://medium.com/swlh/an-android-hacking-primer-3390fef4e6a0)
+* [OWASP Mobile Top Ten 2023 – fi5t](https://fi5t.xyz/posts/owasp-mobile-top-ten-2023/)
+* [Android SMS Stealer – Max Kersten](https://maxkersten.nl/binary-analysis-course/malware-analysis/android-sms-stealer/)
+* [Hacking SMS API via Static Analysis – Security Breached](https://blog.securitybreached.org/2020/02/19/hacking-sms-api-service-provider-of-a-company-android-app-static-security-analysis-bug-bounty-poc/)
+* [Bug Bounty Hunting Tips (Mobile Apps – Android Edition)](https://freedium.cfd/https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
 ---
 
 ## 🛠 Mobile Pentesting Tools & Techniques
