@@ -43,16 +43,101 @@ A curated collection of learning resources to get started with Android applicati
 
 ---
 
-## 🔍 Bug Bounty POCs & Reports
+## Android-Reports-and-Resources
 
-* [HackerOne Report #583987](https://hackerone.com/reports/583987)
-* [HackerOne Report #805073](https://hackerone.com/reports/805073)
-* [HackerOne Report #637194](https://hackerone.com/reports/637194)
-* [HackerOne Report #401793](https://hackerone.com/reports/401793)
-* [HackerOne Report #258460](https://hackerone.com/reports/258460)
-* [HackerOne Report #200427](https://hackerone.com/reports/200427)
-* [HackerOne Report #351555](https://hackerone.com/reports/351555)
-* [HackerOne Report #44727](https://hackerone.com/reports/44727)
+| Category                  | Title | Link | Notes |
+|---------------------------|-------|------|-------|
+| **Hardcoded credentials** | Disclosure of all uploads via hardcoded api secret | [HackerOne Report](https://hackerone.com/reports/351555) | - |
+| **WebView** | Android security checklist: WebView | [Blog Post](https://blog.oversecured.com/Android-security-checklist-webview/) | - |
+| **Insecure deeplinks** | Account Takeover Via DeepLink | [HackerOne Report](https://hackerone.com/reports/855618) | - |
+| | Sensitive information disclosure | [HackerOne Report](https://hackerone.com/reports/401793) | - |
+| **RCE/ACE** | Why dynamic code loading could be dangerous for your apps: a Google example | [Blog Post](https://blog.oversecured.com/Why-dynamic-code-loading-could-be-dangerous-for-your-apps-a-Google-example/) | - |
+| | RCE in TinyCards for Android | [HackerOne Report](https://hackerone.com/reports/281605) | TinyCards made this report private |
+| | Persistent arbitrary code execution in Android's Google Play Core Library | [HackerOne Report](https://hackerone.com/reports/971386) | Details, explanation and the PoC |
+| | CVE-2020-8913: Persistent arbitrary code execution in Google Play Core library | [Blog Post](https://blog.oversecured.com/Oversecured-automatically-discovers-persistent-code-execution-in-the-Google-Play-Core-Library/) | CVE-2020-8913 |
+| | TikTok: three persistent arbitrary code executions and one theft of arbitrary files | [Blog Post](https://blog.oversecured.com/Oversecured-detects-dangerous-vulnerabilities-in-the-TikTok-Android-app/) | Oversecured detects dangerous vulnerabilities in TikTok |
+| **Memory corruption** | Exploiting memory corruption vulnerabilities on Android | [Blog Post](https://blog.oversecured.com/Exploiting-memory-corruption-vulnerabilities-on-Android/) | Includes PayPal example |
+| **Cryptography** | Use cryptography in mobile apps the right way | [Blog Post](https://blog.oversecured.com/Use-cryptography-in-mobile-apps-the-right-way/) | - |
+| **SQL Injection** | SQL Injection in Content Provider | [HackerOne Report](https://hackerone.com/reports/291764) | - |
+| **Session theft** | Steal user session | [HackerOne Report](https://hackerone.com/reports/328486) | - |
+| **Steal files** | Android security checklist: theft of arbitrary files | [Blog Post](https://blog.oversecured.com/Android-security-checklist-theft-of-arbitrary-files/) | - |
+| | How to exploit insecure WebResourceResponse configurations | [Blog Post](https://blog.oversecured.com/Android-Exploring-vulnerabilities-in-WebResourceResponse) | Includes Amazon apps example |
+| | Vulnerable to local file steal, Javascript injection, Open redirect | [HackerOne Report](https://hackerone.com/reports/499348) | - |
+| | Token leakage due to stolen files via unprotected Activity | [HackerOne Report](https://hackerone.com/reports/288955) | - |
+| | Steal files due to exported services | [HackerOne Report](https://hackerone.com/reports/258460) | - |
+| | Steal files due to unprotected exported Activity | [HackerOne Report](https://hackerone.com/reports/161710) | - |
+| | Steal files due to insecure data storage | [HackerOne Report](https://hackerone.com/reports/44727) | - |
+| | Insecure local data storage, makes it easy to steal files | [HackerOne Report](https://hackerone.com/reports/57918) | - |
+| **Bypasses** | Accidental $70k Google Pixel Lock Screen Bypass | [Blog Post](https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/) | - |
+| | Golden techniques to bypass host validations | [HackerOne Report](https://hackerone.com/reports/431002) | - |
+| | Two-factor authentication bypass due to vuln endpoint | [HackerOne Report](https://hackerone.com/reports/202425) | - |
+| | Another endpoint Auth bypass | [HackerOne Report](https://hackerone.com/reports/205000) | - |
+| | Bypass PIN/Fingerprint lock | [HackerOne Report](https://hackerone.com/reports/331489) | - |
+| | Bypass lock protection | [HackerOne Report](https://hackerone.com/reports/490946) | - |
+| | Bypass of biometrics security functionality | [HackerOne Report](https://hackerone.com/reports/637194) | - |
+| **XSS** | HTML Injection in BatterySaveArticleRenderer WebView | [HackerOne Report](https://hackerone.com/reports/176065) | - |
+| | XSS via SAMLAuthActivity | [HackerOne Report](https://hackerone.com/reports/283058) | - |
+| | XSS in ImageViewerActivity | [HackerOne Report](https://hackerone.com/reports/283063) | - |
+| | XSS via start ContentActivity | [HackerOne Report](https://hackerone.com/reports/189793) | - |
+| | XSS on Owncloud webview | [HackerOne Report](https://hackerone.com/reports/87835) | - |
+| **Privilege Escalation** | 20 Security Issues Found in Xiaomi Devices | [Blog Post](https://blog.oversecured.com/20-Security-Issues-Found-in-Xiaomi-Devices/) | - |
+| | Discovering vendor-specific vulnerabilities in Android | [Blog Post](https://blog.oversecured.com/Discovering-vendor-specific-vulnerabilities-in-Android/) | - |
+| | Common mistakes when using permissions in Android | [Blog Post](https://blog.oversecured.com/Common-mistakes-when-using-permissions-in-Android/) | - |
+| | Two weeks of securing Samsung devices: Part 2 | [Blog Post](https://blog.oversecured.com/Two-weeks-of-securing-Samsung-devices-Part-2/) | - |
+| | Two weeks of securing Samsung devices: Part 1 | [Blog Post](https://blog.oversecured.com/Two-weeks-of-securing-Samsung-devices-Part-1/) | - |
+| | Intent Spoofing | [HackerOne Report](https://hackerone.com/reports/97295) | - |
+| | Access of some not exported content providers | [HackerOne Report](https://hackerone.com/reports/272044) | - |
+| | Access protected components via intent | [HackerOne Report](https://hackerone.com/reports/200427) | - |
+| | Fragment injection | [HackerOne Report](https://hackerone.com/reports/43988) | - |
+| | Javascript injection | [HackerOne Report](https://hackerone.com/reports/54631) | - |
+| **CSRF** | Deeplink leads to CSRF in follow action | [HackerOne Report](https://hackerone.com/reports/583987) | - |
+| **Case sensitive account collisions** | overwrite account associated with email via android application | [HackerOne Report](https://hackerone.com/reports/187714) | - |
+| **Intercept Broadcasts** | Possible to intercept broadcasts about file uploads | [HackerOne Report](https://hackerone.com/reports/167481) | - |
+| | Vulnerable exported broadcast reciever | [HackerOne Report](https://hackerone.com/reports/289000) | - |
+| | View every network request response's information | [HackerOne Report](https://hackerone.com/reports/56002) | - |
+
+## Practice Apps
+
+| Name | Description | Link |
+|------|-------------|------|
+| Oversecured Vulnerable Android App (OVAA) | A vulnerable app showing modern security bugs in Android apps | [GitHub](https://github.com/oversecured/ovaa) |
+| Damn Vulnerable Bank | Vulnerable Banking Application for Android | [GitHub](https://github.com/rewanth1997/Damn-Vulnerable-Bank) |
+| InsecureShop | Intentionally Vulnerable Android Application | [GitHub](https://github.com/optiv/InsecureShop) |
+| Vuldroid | Vulnerable Android Application made with security issues | [GitHub](https://github.com/jaiswalakshansh/Vuldroid) |
+| InjuredAndroid | A vulnerable Android application with ctf examples based on bug bounty findings | [GitHub](https://github.com/B3nac/InjuredAndroid) |
+| Android-InsecureBankv2 | Vulnerable Android application for learning about Android insecurities | [GitHub](https://github.com/dineshshetty/Android-InsecureBankv2) |
+| Damn Insecure and Vulnerable app (DIVA) | Damn Insecure and vulnerable App for Android | [GitHub](https://github.com/payatu/diva-android) |
+| OWASP-GoatDroid-Project | Fully functional training environment for Android security | [GitHub](https://github.com/jackMannino/OWASP-GoatDroid-Project) |
+| Sieve | Password Manager app showcasing common vulnerabilities | [APK Download](https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk) |
+
+## Tools
+
+| Name | Description | Link |
+|------|-------------|------|
+| Android - PentestBook | Mobile pentesting resources | [GitHub](https://github.com/six2dez/pentest-book/blob/master/mobile/android.md) |
+| Awesome-Android-Security | Curated list of Android security resources | [GitHub](https://github.com/saeidshirazi/awesome-android-security) |
+| android-security-awesome | Collection of Android security resources | [GitHub](https://github.com/ashishb/android-security-awesome) |
+
+## Learning Resources
+
+| Title | Description | Link |
+|-------|-------------|------|
+| OWASP Mobile Top 10 2016 | Top mobile security risks | [OWASP](https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10) |
+| OWASP Mobile Security Testing Guide | Comprehensive testing guide | [GitHub](https://github.com/OWASP/owasp-mstg) |
+| Android Applications Reversing 101 | Beginner's guide to Android reversing | [Blog](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/) |
+| Detect secret leaks in Android apps | Online detection tool | [Website](https://android.fallible.co/) |
+| Android Security Guidelines | Box's security guidelines | [Documentation](https://developer.box.com/docs/android-security-guidelines) |
+| Attacking Broadcast Receivers | Android security part 18 | [Blog](https://manifestsecurity.com/android-application-security-part-18/) |
+| Android WebView Vulnerabilities | Common WebView issues | [Blog](https://pentestlab.blog/2017/02/12/android-webview-vulnerabilities/) |
+| Android APK Recon Setup | Setup and tips for recon | [Blog](https://b3nac.com/posts/2017-11-10-Setup-and-tips-for-Android-APK-recon.html) |
+| WebView addJavascriptInterface RCE | Remote code execution via WebView | [Blog](https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/) |
+| Install PlayStore on Emulator | Guide for emulator setup | [Medium](https://medium.com/@dai_shi/installing-google-play-services-on-an-android-studio-emulator-fffceb2c28a1) |
+| Android Bug Bounty Tips | Targeting mobile apps | [Medium](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc) |
+| Access to Protected Components | Oversecured blog post | [Blog](https://blog.oversecured.com/Android-Access-to-app-protected-components/) |
+| Arbitrary Code Execution | Via third-party package contexts | [Blog](https://blog.oversecured.com/Android-arbitrary-code-execution-via-third-party-package-contexts/) |
+| Interception of Implicit Intents | Android security issue | [Blog](https://blog.oversecured.com/Interception-of-Android-implicit-intents/) |
+| Evernote Vulnerabilities | Universal XSS and cookie theft | [Blog](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/) |
+| Gaining Access to Content Providers | Android security issue | [Blog](https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers/) |
 
 ---
 
