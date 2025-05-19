@@ -153,7 +153,7 @@ A curated collection of learning resources to get started with Android applicati
 | Evernote Vulnerabilities | Universal XSS and cookie theft | [Blog](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/) |
 | Gaining Access to Content Providers | Android security issue | [Blog](https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers/) |
 
-## Drozer Learning Resources
+## Learn Drozer for android pentesting
 
 | S.No | Title                                  | Link                                                                   | Notes         |
 | ---- | -------------------------------------- | ---------------------------------------------------------------------- | ------------- |
@@ -164,6 +164,16 @@ A curated collection of learning resources to get started with Android applicati
 | 5    | Practical Drozer Exploits              | [Watch](https://www.youtube.com/watch?v=H-ZjjPy2qzQ)                   |               |
 | 6    | Drozer for Penetration Testing         | [Watch](https://www.youtube.com/watch?v=2xQw2Dlbouw)                   |               |
 | 7    | Search all Drozer tutorials on YouTube | [Search](https://www.youtube.com/results?search_query=drozer+tutorial) |               |
+
+## Learn Frida for android pentesting
+
+- [Frida Playlist 1](https://www.youtube.com/playlist?list=PLKwUZp9HwWoC1E8S8MHHo5qLjldip3oi-)
+- [Frida Playlist 2](https://www.youtube.com/playlist?list=PLn4fSTVui_Gwrvhlc7HtHwg3kvZo5b4xV)
+- [Frida Playlist 3](https://www.youtube.com/playlist?list=PL8NKgaAXRavRargeiLrq3SAuwlLJLjKrN)
+- [Frida Playlist 4](https://www.youtube.com/playlist?list=PLGH1xiL-41XACwGHQjy1vaPIG5kqsPvY2)
+- [Frida Tutorial - N2JtRXCofUU](https://www.youtube.com/watch?v=N2JtRXCofUU&t=370s)
+- [Frida Tutorial - R3ptGaFW1AU](https://www.youtube.com/watch?v=R3ptGaFW1AU)
+- [Frida Tutorial - 8PD6vRBgQrg](https://www.youtube.com/watch?v=8PD6vRBgQrg)
 
 
 ## Practice Resources
