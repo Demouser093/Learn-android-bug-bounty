@@ -1,12 +1,10 @@
 Here’s your updated **GitHub README** with the new links properly organized:
 
----
 
 # Learn Android Bug Bounty
 
 A curated collection of learning resources to get started with Android application security, mobile app pentesting, and bug bounty hunting. This repository includes video tutorials, blog posts, hands-on labs, and practice materials for both Android and iOS platforms.
 
----
 
 ## 🎥 Video Tutorials
 
@@ -25,7 +23,7 @@ A curated collection of learning resources to get started with Android applicati
 
 
 
-## 📚 Guides, Cheatsheets, Github repo
+## Guides, Cheatsheets, Github repo
 
 * [Android Pentesting Checklist (HackTricks)](https://book.hacktricks.wiki/en/mobile-pentesting/android-checklist.html)
 * [Android Pentesting Checklist (GitHub)](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist)
@@ -35,7 +33,7 @@ A curated collection of learning resources to get started with Android applicati
 * [Android Bug Bounty Reports & Resources](https://github.com/B3nac/Android-Reports-and-Resources)
 
 
-## 📚 Blogs & Writeups
+## Blogs & Writeups
 
 * [@vaishalinagori112 on Medium](https://medium.com/@vaishalinagori112)
 * [@prasadraj954 on Medium](https://medium.com/@prasadraj954)
@@ -50,7 +48,6 @@ A curated collection of learning resources to get started with Android applicati
 * [Android SMS Stealer – Max Kersten](https://maxkersten.nl/binary-analysis-course/malware-analysis/android-sms-stealer/)
 * [Hacking SMS API via Static Analysis – Security Breached](https://blog.securitybreached.org/2020/02/19/hacking-sms-api-service-provider-of-a-company-android-app-static-security-analysis-bug-bounty-poc/)
 * [Bug Bounty Hunting Tips (Mobile Apps – Android Edition)](https://freedium.cfd/https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
----
 
 ## 🛠 Mobile Pentesting Tools & Techniques
 
@@ -59,7 +56,6 @@ A curated collection of learning resources to get started with Android applicati
 * [HEXTREE.IO - Mobile Security Resources](https://www.hextree.io/)
 * [APKLeaks - Extract secrets from APKs](https://github.com/dwisiswant0/apkleaks)
 
----
 
 ## Android-Reports-and-Resources
 
@@ -157,25 +153,34 @@ A curated collection of learning resources to get started with Android applicati
 | Evernote Vulnerabilities | Universal XSS and cookie theft | [Blog](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/) |
 | Gaining Access to Content Providers | Android security issue | [Blog](https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers/) |
 
----
+## Drozer Learning Resources
 
-## 🧪 Practice Resources
+| S.No | Title                                  | Link                                                                   | Notes         |
+| ---- | -------------------------------------- | ---------------------------------------------------------------------- | ------------- |
+| 1    | Drozer Installation and Basic Usage    | [Watch](https://www.youtube.com/watch?v=L4j7c9nLgHI)                   |               |
+| 2    | Android Component Testing with Drozer  | [Watch](https://www.youtube.com/watch?v=qEWHEPU58Hw)                   |               |
+| 3    | Content Provider Exploitation          | [Watch](https://www.youtube.com/watch?v=xrqaJFvdC9A&t=184s)            | Start at 3:04 |
+| 4    | Advanced Drozer Techniques             | [Watch](https://www.youtube.com/watch?v=B5YwTtNzB9A)                   |               |
+| 5    | Practical Drozer Exploits              | [Watch](https://www.youtube.com/watch?v=H-ZjjPy2qzQ)                   |               |
+| 6    | Drozer for Penetration Testing         | [Watch](https://www.youtube.com/watch?v=2xQw2Dlbouw)                   |               |
+| 7    | Search all Drozer tutorials on YouTube | [Search](https://www.youtube.com/results?search_query=drozer+tutorial) |               |
+
+
+## Practice Resources
 
 * [Android Java Challenges](https://application.security/free/%20Android-Java)
 * [iPhone Swift Labs](https://application.security/free/marketing-iphone-swift)
 
----
 
-## 🧬 Labs for Hands-On Learning
+## Labs for Hands-On Learning
 
 * [Mobile Hacking Lab](https://www.mobilehackinglab.com/free-mobile-hacking-labs)
 * [Security Compass Android Labs](https://securitycompass.github.io/AndroidLabs/index.html)
 * [Security Compass iPhone Labs](https://securitycompass.github.io/iPhoneLabs/)
 * [OWASP iGoat (Android)](https://code.google.com/archive/p/owasp-igoat/)
 
----
 
-## 🛠️ Security Tools
+## Security Tools
 
 ### Static Analysis Tools
 1. [APKTool](https://ibotpeaches.github.io/Apktool/) – Decompile/modify APK (smali-level)
@@ -205,7 +210,6 @@ A curated collection of learning resources to get started with Android applicati
 5. Logd – Android logging daemon behind logcat
 6. Syslog – For rooted devices to log everything (system + kernel)
 
----
 
 ## 💡 Contribution
 
