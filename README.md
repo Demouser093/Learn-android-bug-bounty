@@ -8,7 +8,8 @@ A curated collection of learning resources to get started with Android applicati
 
 ## 🎥 Video Tutorials
 
-* [Mobile Pentesting by Hackersploit](https://www.youtube.com/playlist?list=PLmqenIp2RQcjBWzwMZQbIkbuVDmkYi_KF)
+* [Mobile Pentesting by Intigriti](https://www.youtube.com/playlist?list=PLmqenIp2RQcjBWzwMZQbIkbuVDmkYi_KF)
+* [Hacker101 – Mobile Crash Course](https://www.hacker101.com/sessions/mobile_crash_course)
 * [Android Bug Bounty Playlist](https://www.youtube.com/playlist?list=PL1f72Oxv5SylOECx9M34pLZlNa7YkJJ14)
 * [How to Hack Android Apps (Frida)](https://www.youtube.com/watch?v=mr64si_-YwI)
 * [How to Bypass SSL Pinning](https://www.youtube.com/watch?v=vjCF_O6aZIg)
@@ -19,7 +20,19 @@ A curated collection of learning resources to get started with Android applicati
 * [Exploiting Android Deep Links and Exported Components](https://www.youtube.com/watch?v=lg1sN8njSYs)
 * [Mobile App Pentesting by Hacking Simplified](https://www.youtube.com/playlist?list=PLGJe0xGh7cH2lszCZ7qwsqouEK23XCMGp)
 * [Android Security Testing](https://www.youtube.com/watch?v=6-M_7O3A8AI)
-* [Hacker101 – Mobile Crash Course](https://www.hacker101.com/sessions/mobile_crash_course)
+* [Full Android Penetration Testing Course Playlist](https://www.youtube.com/playlist?list=PLwk2o8vr7P8EyIA27vaxCXUUaGHRZj49t)
+* [Android App Penetration Testing - OWASP Top 10](https://www.youtube.com/playlist?list=PLdGbzQX3gR8JJkl2J4VmBckqhLhA_mfNY)
+* [Bypass Biometrics in Mobile Apps](https://www.youtube.com/watch?v=zIaKX3zgNF8)
+* [Intercept traffic with Objection and Burp](https://www.youtube.com/watch?v=Ft3H-3J67UE)
+* [Hacking and Pentesting Android Apps](https://www.youtube.com/playlist?list=PL5eTpNI3Q8oUbw9vozVYatATMKKsDtnoJ)
+* [Hacking and Pentesting iOS Apps](https://www.youtube.com/playlist?list=PL5eTpNI3Q8oVedOucH_DAdd6SP6wc-KSD)
+* [Android Application Pen-testing Course](https://www.youtube.com/playlist?list=PL4S940IsHJYWhhYOpBk6Y-U9nTQq2omae)
+
+## YouTube Channels for Mobile Pentesting  
+- [CorSecure](https://www.youtube.com/@CorSecure/videos)  
+- [B3nacSec](https://www.youtube.com/@B3nacSec/videos)  
+- [LaurieWired](https://www.youtube.com/@lauriewired/videos)  
+- [AppSecHub](https://www.youtube.com/@appsechub/videos)  
 
 
 
@@ -39,6 +52,9 @@ A curated collection of learning resources to get started with Android applicati
 * [@prasadraj954 on Medium](https://medium.com/@prasadraj954)
 * [B3nac’s Android Reports and Resources](https://github.com/B3nac/Android-Reports-and-Resources)
 * [Oversecured Blog](https://blog.oversecured.com/)
+* [CorSecure Blog](https://corsecure.blog/)  
+* [Frida Official Documentation](https://frida.re/docs/)  
+* [SecurityBreached (Babayaga47)](https://blog.securitybreached.org/author/babayaga47/) 
 * [DeeSee's Android Security Resources](https://blog.deesee.xyz/android/security/2020/01/13/android-application-hacking-resources.html)
 * [Hacker101: Mobile Crash Course](https://www.hacker101.com/sessions/mobile_crash_course.html)
 * [Mobisec Slides](https://mobisec.reyammer.io/slides)
@@ -48,6 +64,24 @@ A curated collection of learning resources to get started with Android applicati
 * [Android SMS Stealer – Max Kersten](https://maxkersten.nl/binary-analysis-course/malware-analysis/android-sms-stealer/)
 * [Hacking SMS API via Static Analysis – Security Breached](https://blog.securitybreached.org/2020/02/19/hacking-sms-api-service-provider-of-a-company-android-app-static-security-analysis-bug-bounty-poc/)
 * [Bug Bounty Hunting Tips (Mobile Apps – Android Edition)](https://freedium.cfd/https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
+* [Getting Started in Android Pentesting](https://blog.securitybreached.org/2020/03/17/getting-started-in-android-apps-pentesting/)  
+* [Exploiting Insecure Firebase DB](https://blog.securitybreached.org/2020/02/04/exploiting-insecure-firebase-database-bugbounty/)  
+* [Finding Leaked AWS Creds in Android Apps](https://blog.securitybreached.org/2024/06/28/finding-hidden-threats-how-i-found-leaked-aws-credentials-in-an-android-app-api-using-dast/)  
+* [200+ Bounty Payouts: SQLi in Content Providers](https://infosecwriteups.com/200-bug-bounty-payouts-exploiting-content-providers-with-sql-injection-abd287179b61)  
+* [8 Ways to Bypass SSL Pinning in iOS](https://medium.com/@vaishalinagori112/8-different-ways-to-bypass-ssl-pinning-in-ios-applications-427dfcbe8bf7)  
+
+### Mobile Security Conference Talks
+
+| Title | Speaker | Link |
+|-------|---------|------|
+| Pwning Android Apps at Scale | - | [YouTube](https://www.youtube.com/watch?v=24MwHjqMjRk) |
+| Hacking Mobile Applications with Frida | David Coursey | [YouTube](https://www.youtube.com/watch?v=xwyXgykedzk) |
+| Unlocking secrets of proprietary software using Frida | - | [YouTube](https://www.youtube.com/watch?v=QC2jQI7GLus&list=PLn4fSTVui_Gwrvhlc7HtHwg3kvZo5b4xV&index=1) |
+| Hacking Banking app | - | [YouTube](https://www.youtube.com/watch?v=iMNs8YAy6pk&list=PLn4fSTVui_Gwrvhlc7HtHwg3kvZo5b4xV&index=4) |
+| Conference Talks by Laurie Kirk | Laurie Kirk | [YouTube Playlist](https://www.youtube.com/playlist?list=PLn_It163He30yWraeRxdKfEFlLANJnlDE) |
+
+### Android Pentesting Automated Scanners  
+- **[BeVigil](https://bevigil.com/osint-api)** - OSINT-based mobile app security scanner  
 
 ## 🛠 Mobile Pentesting Tools & Techniques
 
@@ -73,6 +107,7 @@ A curated collection of learning resources to get started with Android applicati
 | **Memory corruption** | Exploiting memory corruption vulnerabilities on Android | [Blog Post](https://blog.oversecured.com/Exploiting-memory-corruption-vulnerabilities-on-Android/) | Includes PayPal example |
 | **Cryptography** | Use cryptography in mobile apps the right way | [Blog Post](https://blog.oversecured.com/Use-cryptography-in-mobile-apps-the-right-way/) | - |
 | **SQL Injection** | SQL Injection in Content Provider | [HackerOne Report](https://hackerone.com/reports/291764) | - |
+| | Another SQL Injection in Content Provider | [HackerOne Report](https://hackerone.com/reports/1650264) | - |
 | **Session theft** | Steal user session | [HackerOne Report](https://hackerone.com/reports/328486) | - |
 | **Steal files** | Android security checklist: theft of arbitrary files | [Blog Post](https://blog.oversecured.com/Android-security-checklist-theft-of-arbitrary-files/) | - |
 | | How to exploit insecure WebResourceResponse configurations | [Blog Post](https://blog.oversecured.com/Android-Exploring-vulnerabilities-in-WebResourceResponse) | Includes Amazon apps example |
@@ -109,6 +144,7 @@ A curated collection of learning resources to get started with Android applicati
 | **Intercept Broadcasts** | Possible to intercept broadcasts about file uploads | [HackerOne Report](https://hackerone.com/reports/167481) | - |
 | | Vulnerable exported broadcast reciever | [HackerOne Report](https://hackerone.com/reports/289000) | - |
 | | View every network request response's information | [HackerOne Report](https://hackerone.com/reports/56002) | - |
+| **Critical LFI vulnerability in Content Provider**           | Content Provider Local File Inclusion | [POC Video](https://www.youtube.com/watch?v=34tNXsqYe9A&list=PLxyxUSarDsdB3MDNzb6Q7GOaBch8IWbOj&index=17) |- |
 
 ## Practice Apps
 
@@ -175,6 +211,21 @@ A curated collection of learning resources to get started with Android applicati
 - [Frida Tutorial - R3ptGaFW1AU](https://www.youtube.com/watch?v=R3ptGaFW1AU)
 - [Frida Tutorial - 8PD6vRBgQrg](https://www.youtube.com/watch?v=8PD6vRBgQrg)
 
+## Bypassing Security Protections in APKs via Objection and Frida
+
+- **Learn Objection Basics**: [YouTube Tutorial](https://www.youtube.com/watch?v=Hu8m_XseXm4)  
+- **Pin Bypass via Objection**: [YouTube Guide](https://www.youtube.com/watch?v=1hJiMGjUnDw)  
+- **Bypassing APK Detections**:  
+  - [Objection + Frida Demo](https://www.youtube.com/watch?v=S8Qt1dWfPjs)  
+  - [Advanced Bypass Techniques](https://www.youtube.com/watch?v=087Vsk5a9RY)  
+  - [Bypassing Multiple Defenses](https://www.youtube.com/watch?v=BQwyy338Zag) 
+- **Multi-Part Series**:  
+  - [Part 1: Fundamentals](https://www.youtube.com/watch?v=5-0KsD7saUg)  
+  - [Part 2: Intermediate](https://www.youtube.com/watch?v=6lRIR6EQUPI)  
+  - [Part 3: Advanced](https://www.youtube.com/watch?v=bJgR5PKv2t0)  
+
+## BurpSuite for Android Pentesting  
+- [BurpSuite for Android Pentesting Playlist](https://www.youtube.com/playlist?list=PLH5GW4W70qp86GdyQNLY37GcIF0nVksup)
 
 ## Practice Resources
 
