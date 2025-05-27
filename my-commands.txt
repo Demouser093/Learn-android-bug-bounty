@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------
+emulator -list-avds
+emulator -avd Pixel_4 -writable-system -no-snapshot
+emulator -avd Pixel_3a_Root -writable-system -no-snapshot -port 5560
+--------------------------------------------------------------------------
+Start MOBSF
+docker run -it --rm -p 8000:8000 -p 1337:1337 -e MOBSF_ANALYZER_IDENTIFIER=emulator-5560 opensecurity/mobile-security-framework-mobsf:latest
+--------------------------------------------------------------------------
+adb shell getprop ro.product.cpu.abi
+adb forward tcp:31415 tcp:31415
+adb shell pm list packages -3
+adb install-multiple *.apk
+adb shell pm path -
+adb pull -
+--------------------------------------------------------------------------
+frida-ps -Uia
+kill -9  14998
+netstat -tulnp | grep 27042
+frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f -
+--------------------------------------------------------------------------
+objection -connect
+objection -g <package name> explore
+android root disable
+android sslpinning disable
+android hooking list classes
+android hooking list activities
+android intent launch_activity com.android.insecurebankv2.PostLogin
+android hooking search classes <keyword-to-search-class>
+android hooking list class_methods <calss.name>
+android hooking watch class <calss.name>
+android hooking set return_value <class_name> <true or false>
+--------------------------------------------------------------------------
+run app.provider.finduri <package-name>
