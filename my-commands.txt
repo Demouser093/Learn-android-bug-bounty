@@ -24,9 +24,14 @@ android root disable
 android sslpinning disable
 android hooking list classes
 android hooking list activities
+android hooking list services
+android hooking list receivers
+android hooking list providers
+android hooking search strings
+android hooking list broadcast_intents
+android hooking list class_methods <calss.name>
 android intent launch_activity com.android.insecurebankv2.PostLogin
 android hooking search classes <keyword-to-search-class>
-android hooking list class_methods <calss.name>
 android hooking watch class <calss.name>
 android hooking set return_value <class_name> <true or false>
 --------------------------------------------------------------------------
