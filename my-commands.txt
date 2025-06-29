@@ -18,8 +18,8 @@ netstat -tulnp | grep 27042
 frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f ---
 frida --codeshare Q0120S/root-detection-bypass -U -f    ---
 frida --codeshare fdciabdul/frida-multiple-bypass -U -f   ---
-frida --codeshare TheDauntless/disable-flutter-tls-v1 -U -f   com.zerodha.kite3
-frida -U -f com.changiairport.cagapp -l C:\Users\ronak\OneDrive\Desktop\BBHunt\rootbypass.js  -l C:\Users\ronak\OneDrive\Desktop\BBHunt\sslpinning.js --runtime=v8
+frida --codeshare TheDauntless/disable-flutter-tls-v1 -U -f   <>
+frida -U -f <> -l <>  -l <> --runtime=v8
 --------------------------------------------------------------------------
 objection -connect
 objection -g <package name> explore
