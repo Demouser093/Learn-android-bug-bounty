@@ -1,7 +1,6 @@
---------------------------------------------------------------------------
 emulator -list-avds
-emulator -avd Pixel_4 -writable-system -no-snapshot
-emulator -avd Pixel_3a_Root -writable-system -no-snapshot -port 5560
+emulator -avd Pixel4 -writable-system -no-snapshot
+emulator -avd Pixel4XL-Root -writable-system -no-snapshot -port 5560
 --------------------------------------------------------------------------
 Start MOBSF
 docker run -it --rm -p 8000:8000 -p 1337:1337 -e MOBSF_ANALYZER_IDENTIFIER=emulator-5560 opensecurity/mobile-security-framework-mobsf:latest
@@ -16,21 +15,25 @@ adb pull -
 frida-ps -Uia
 kill -9  14998
 netstat -tulnp | grep 27042
-frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f -
+frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f ---
+frida --codeshare Q0120S/root-detection-bypass -U -f    ---
+frida --codeshare fdciabdul/frida-multiple-bypass -U -f   ---
+frida --codeshare TheDauntless/disable-flutter-tls-v1 -U -f   com.zerodha.kite3
+frida -U -f com.changiairport.cagapp -l C:\Users\ronak\OneDrive\Desktop\BBHunt\rootbypass.js  -l C:\Users\ronak\OneDrive\Desktop\BBHunt\sslpinning.js --runtime=v8
 --------------------------------------------------------------------------
 objection -connect
 objection -g <package name> explore
 android root disable
 android sslpinning disable
 android hooking list classes
-android hooking list activities
+android hooking list activities -e
 android hooking list services
 android hooking list receivers
 android hooking list providers
 android hooking search strings
 android hooking list broadcast_intents
 android hooking list class_methods <calss.name>
-android intent launch_activity com.android.insecurebankv2.PostLogin
+android intent launch_activity <>
 android hooking search classes <keyword-to-search-class>
 android hooking watch class <calss.name>
 android hooking set return_value <class_name> <true or false>
