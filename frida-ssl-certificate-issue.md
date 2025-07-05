@@ -16,6 +16,7 @@ openssl x509 -inform der -in cert.der -out burp.pem
 
 ```bash
 adb push cert-der.crt /data/local/tmp/
+                      /system/etc/security/cacerts/
 adb shell chmod 644 /data/local/tmp/cert-der.crt
 ```
 
