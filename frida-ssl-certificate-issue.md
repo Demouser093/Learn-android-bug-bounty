@@ -6,6 +6,8 @@ After extracting `burpsuite.cer`, follow these steps to use it for SSL pinning b
 
 ```bash
 openssl x509 -in burpsuite.cer -out cert-der.crt -outform DER
+openssl x509 -inform der -in cert.der -out burp.pem
+
 ```
 
 ---
