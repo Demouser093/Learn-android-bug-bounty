@@ -1,6 +1,6 @@
 emulator -list-avds
-emulator -avd Pixel4 -writable-system -no-snapshot
-emulator -avd Pixel4XL-Root -writable-system -no-snapshot -port 5560
+emulator -avd Pixel9-Playstore -writable-system -no-snapshot
+emulator -avd Pixel6-Root -writable-system -no-snapshot -port 5560
 --------------------------------------------------------------------------
 Start MOBSF
 docker run -it --rm -p 8000:8000 -p 1337:1337 -e MOBSF_ANALYZER_IDENTIFIER=emulator-5560 opensecurity/mobile-security-framework-mobsf:latest
@@ -12,14 +12,11 @@ adb install-multiple *.apk
 adb shell pm path -
 adb pull -
 --------------------------------------------------------------------------
-frida-ps -Uia
-kill -9  14998
-netstat -tulnp | grep 27042
-frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f ---
-frida --codeshare Q0120S/root-detection-bypass -U -f    ---
-frida --codeshare fdciabdul/frida-multiple-bypass -U -f   ---
+frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f <>
+frida --codeshare Q0120S/root-detection-bypass -U -f    <>
+frida --codeshare fdciabdul/frida-multiple-bypass -U -f   <>
 frida --codeshare TheDauntless/disable-flutter-tls-v1 -U -f   <>
-frida -U -f <> -l <>  -l <> --runtime=v8
+frida -U -f com.changiairport.cagapp -l <>  -l <> --runtime=v8
 --------------------------------------------------------------------------
 objection -connect
 objection -g <package name> explore
